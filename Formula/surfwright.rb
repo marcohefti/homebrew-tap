@@ -1,8 +1,8 @@
 class Surfwright < Formula
   desc "Agent-first browser control surface for Chrome/Chromium"
   homepage "https://github.com/marcohefti/surfwright"
-  url "https://registry.npmjs.org/@marcohefti/surfwright/-/surfwright-0.1.1.tgz"
-  sha256 "7238c220b559abfec12d47120c257905c5a5e52289f4b95047bfc71a821c9afc"
+  url "https://registry.npmjs.org/@marcohefti/surfwright/-/surfwright-0.1.2.tgz"
+  sha256 "b475029c721218b7b929fda9153cbff6ff67a5cced563ec72fed9c14505dde65"
   license "MIT"
 
   depends_on "node"
