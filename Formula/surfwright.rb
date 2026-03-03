@@ -1,8 +1,8 @@
 class Surfwright < Formula
   desc "Agent-first browser control surface for Chrome/Chromium"
   homepage "https://github.com/marcohefti/surfwright"
-  url "https://registry.npmjs.org/@marcohefti/surfwright/-/surfwright-0.1.2.tgz"
-  sha256 "b475029c721218b7b929fda9153cbff6ff67a5cced563ec72fed9c14505dde65"
+  url "https://registry.npmjs.org/@marcohefti/surfwright/-/surfwright-0.1.3.tgz"
+  sha256 "ed2c4c3ce4ad22117e05a6cac9cfe741db2cd7509baee8730ab74d758d71ddd4"
   license "MIT"
 
   depends_on "node"
@@ -13,6 +13,6 @@ class Surfwright < Formula
   end
 
   test do
-    assert_match "\"ok\":true", shell_output("#{bin}/surfwright --json contract")
+    assert_match "\"ok\":true", shell_output("#{bin}/surfwright contract")
   end
 end
